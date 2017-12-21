@@ -1,0 +1,25 @@
+' test script
+
+' small image
+' 0 0 in CENTRE
+canvas 2000 2000
+
+' some triangles
+triangle  #ff00ff    0 -400   #0000ff  120 -160   #00ff00 -120 -160
+triangle  #ffff00 -380 -124   #00ff00 -120 -160   #00ffff -190   60
+triangle  #00ffff  380 -124   #ffff00  190   60   #0000ff  120 -160
+triangle  #0000ff -236  324   #00ffff -190   60   #ff00ff    0  200
+triangle  #00ff00  236  324   #ff00ff    0  200   #ffff00  190   60
+
+triangle  #ff0000    0    0   #00ff00 -120 -160   #0000ff  120 -160
+triangle  #ff0000    0    0   #00ffff -190   60   #00ff00 -120 -160
+triangle  #ff0000    0    0   #0000ff  120 -160   #ffff00  190   60
+triangle  #ff0000    0    0   #ff00ff    0  200   #00ffff -190   60
+triangle  #ff0000    0    0   #ffff00  190   60   #ff00ff    0  200
+
+' triangle  #ffffff    0    0   #ffffff    0  500   #ffffff -500    0
+' triangle  #ffffff    0    0   #ffffff -500    0   #ffffff -500 -500
+' triangle  #ffffff    0    0   #ffffff -500 -500   #ffffff    0 -500
+' triangle  #ffffff    0    0   #ffffff  500    0   #ffffff  500  200
+' triangle  #ffffff    0    0   #ffffff  500  200   #ffffff    0  500
+
